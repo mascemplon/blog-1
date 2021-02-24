@@ -1,6 +1,21 @@
 ---
 label: testing
 hide_body: true
-fields: []
+fields:
+- name: coba_
+  type: include
+  config: {}
+  template: testing
+  label: 'coba '
+  description: label coba aja
+- name: coba_label
+  type: textarea
+  default: halo
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Coba Label
 pages:
 - _posts/testing.md
